@@ -11,7 +11,7 @@ do
         })
 
         for i = 0, seg do
-            local segAngle = rad(((i / seg) * -pct + ang))
+            local segAngle = rad((i / seg) * -pct + ang)
 
             insert(circle, {
                 x = x + sin(segAngle) * radius,

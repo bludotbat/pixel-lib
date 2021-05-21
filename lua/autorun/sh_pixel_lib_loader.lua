@@ -49,3 +49,8 @@ end)
 hook.Run("PIXEL.LIB.Loaded")
 PIXEL.HasInit = true
 PIXEL.Message("Loaded!", "Loader")
+
+if SERVER then
+    resource.AddWorkshop("2493445845")
+    PIXEL.Message("Added workshop content", "Loader")
+end

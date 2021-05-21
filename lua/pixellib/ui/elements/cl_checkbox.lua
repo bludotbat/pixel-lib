@@ -7,7 +7,7 @@ local font = PIXEL.GetFont(20)
 
 function PANEL:Init()
     self.Colors = {}
-    self:SetText("hello bfdsfsdffsdfsfdsfsfro")
+    self:SetText("Checkbox")
     self:SetChecked(true)
     self.CheckElement = vgui.Create("PIXEL.Button", self)
     self.CheckElement:SetWide(PIXEL.Scale(25))
