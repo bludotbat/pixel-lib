@@ -18,7 +18,7 @@ function PANEL:Init()
     self.CloseBtn.Colors.Current = PIXEL.Colors.Accents.Negative:Copy()
     self.CloseBtn.Colors.Normal = PIXEL.Colors.Accents.Negative:Copy()
     self.CloseBtn.Colors.Hovered = color_white:Offset(-60)
-
+    
     self.CloseBtn.DoClick = function()
         self:Remove()
     end

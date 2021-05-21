@@ -25,6 +25,6 @@ PIXEL.Colors.Rainbow = Color(255, 0, 0)
 local sv = 0.9
 local rainbowHue = 0
 hook.Add("Think", "PIXEL.LIB.RainbowColor", function()
-    rainbowHue = (rainbowHue % 360) + 1
+    rainbowHue = (rainbowHue % 360) + 0.2
     PIXEL.Colors.Rainbow = hsv(rainbowHue, sv, sv)
 end)
